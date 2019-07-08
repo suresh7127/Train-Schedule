@@ -12,6 +12,7 @@ Firebase Assignment -7
 <br>
 <br>
 .......................................
+<br>
 4. Initialize Firebase.
 <br>
 5. Grab variables from form fields.
