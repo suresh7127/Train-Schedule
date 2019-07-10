@@ -1,0 +1,103 @@
+body {
+
+	margin: 2% 5%;
+
+	background: url("https://wonderfulengineering.com/wp-content/uploads/2014/09/yellow-wallpaper-7.jpg");
+
+}
+
+
+
+.jumbotron {
+
+	text-align: center;
+
+	background: pink;
+
+	color:rgb(16, 66, 16);
+
+}
+
+
+
+h1, p {
+
+	text-shadow: 0 0 20px #000000;
+
+}
+
+
+
+td {
+
+	border-right:2px  solid #ddd;
+
+	border-bottom: 2px solid #ddd;
+
+	border-top: 0;
+
+}
+
+
+
+th {
+
+	text-align: center;
+
+	border-bottom: 2px solid #000000 !important;
+
+	border-right: 2px solid #000000 !important;
+
+
+
+}
+
+
+
+th:last-child, td:last-child {
+
+	border-right: none !important;
+
+}
+
+
+
+.panel, .jumbotron {
+
+	border: 5px solid black !important;
+
+	border-radius: 10px;
+
+}
+
+
+
+td {
+
+	text-align: center;
+
+}
+
+.panel{
+
+		font-family:Lobster;
+
+}
+
+.btn {
+
+	color:white;
+
+	background-color: red;
+
+	width: 220px;
+
+}
+
+.btn:hover{
+
+	background-color: green;
+
+	color:yellow;
+
+}
