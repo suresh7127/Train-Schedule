@@ -1,0 +1,187 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+
+
+  <!-- Initialize Firebase -->
+
+  <!-- Initialize Firebase -->
+
+  <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
+
+
+
+  <!--jQuery-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+  <!--Moment-->
+
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+  
+
+  <!--Fonts-->
+
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://fonts.google.com/">
+
+  <!--Bootstrap-->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  
+
+  <!--CSS-->
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+
+    <title>Train Schedule</title>
+
+</head>
+
+<body>
+
+    <div class="jumbotron">
+
+        <h1>Any Time Is Train Time</h1>
+
+        <p> Choo. Choo. Chee. Chee </p>
+
+        <p id="time"></p>
+
+    </div>
+
+
+
+    <div class="panel panel-primary">
+
+        <!-- Firebase panel Content-->
+
+        <div class="panel-heading"><h5>Train Schedule</h5></div>
+
+
+
+        <!-- Table -->
+
+        <table class="table">
+
+            <thead>
+
+                <tr>
+
+                    <th> Train Name </th>
+
+                    <th> Destination </th>
+
+                    <th> Frequency </th>
+
+                    <th> Next Arrival </th>
+
+                    <th> Minutes Away </th>
+
+                </tr>
+
+            </thead>
+
+            <tbody id="table-info">     <!-- Below Insert data the user inputs into firebase -->
+
+                
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+
+    <!-- New Train panel contents -->
+
+    <div class="panel panel-primary">
+
+        <div class="panel-heading"><h3><i class="fas fa-train"></i>Add a Train Here:</h3></div>
+
+        <div class="panel-body">
+
+            <div class="form-group">
+
+                <label for="trainNameInput"> Train Name </label>
+
+                <input type="text" class="form-control" id="trainNameInput" placeholder="Enter Train Name Here"/>
+
+            </div>
+
+
+
+            <div class="form-group">
+
+                <label for="destinationInput">Destination</label>
+
+                <input type="text" class="form-control" id="destinationInput" placeholder="Where To"/>
+
+            </div>
+
+            
+
+            <div class="form-group">
+
+                <label for="firstTrainTimeInput"> First Train Time (HH:mm - Military Time)</label><br>
+
+                <input type="time" class="form-control" id="firstTrainTimeInput" placeholder="00:00"/>
+
+            </div>
+
+
+
+            <div class="form-group">
+
+                <label for="frequencyInput">Frequency</label>
+
+                <input type="number" class="form-control" id="frequencyInput" placeholder="Enter Value Of Minutes (Not 0)"/>
+
+            </div>
+
+
+
+            <button type="submit" class="btn btn-primary" id="submitButton" >Submit</button>
+
+
+
+        </div>
+
+    </div>
+
+
+
+<!--Javascript  -->
+
+    <script src="assets/javascript/app.js"></script>
+
+
+
+</body>
+
+</html>
