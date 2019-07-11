@@ -42,7 +42,7 @@ $(document).ready(function () {
 
  
 
-         // Your web app's Firebase configuration
+         //  web app's Firebase configuration
 
          var firebaseConfig = {
 

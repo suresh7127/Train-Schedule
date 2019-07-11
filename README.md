@@ -2,25 +2,42 @@
 Firebase Assignment -7
 
 <br>
-1. Create Train Schedule using Firebase.
+1.  Global Variables.
 <br>
-2. Retrive and Manipulate information with Moment.js
+2. var database.
 <br>
-3. Website must provide up-to-date infor about various trains.
+3. the timer at the top.
 <br>
+4.Call function with setInterval.
 <br>
+5. web app's Firebase configuration.
 <br>
+6.Initialize Firebase.
 <br>
-.......................................
+7.Grab Input values IF the conditon above is true.
 <br>
-4. Initialize Firebase.
+8.var document = document.getElementById("SubmitButton");
 <br>
-5. Grab variables from form fields.
+9. Link and assign variable for firebase.
 <br>
-6. Add event listner.
+10.DataminAyay:minAway.
 <br>
-7. Push values into firebase database.
+11.TimeStamp: firebase.database.ServerValue.TIMESTAMP.
 <br>
-8. alert("train new tain added successfully);
+12. Variable for firebase to link train easier.
+<br>
+13.Make sure fields are back to blank after adding a train.
+<br>
+14.make variable to ease reference.
+<br>
+15.Current Time.
+<br>
+16.Convert Time and configure for Future use by pushing firstArrival back 1 year.
+<br>
+17.Calculate now vs First Arrival.
+<br>
+18.How long till train.
+<br>
+19.
 
 
