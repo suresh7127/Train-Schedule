@@ -199,9 +199,6 @@ $(document).ready(function () {
                newArrival + "</td><td>" + timeLeft + "</td></tr>");
 
 
-
-
-
     });
 
 
@@ -215,10 +212,6 @@ $(document).ready(function () {
         $("#firstTrainTimeInput").val("");
 
         $("#frequencyInput").val("");
-
-
-
-        
 
     }
 
