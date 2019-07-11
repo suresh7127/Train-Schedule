@@ -46,19 +46,19 @@ $(document).ready(function () {
 
          var firebaseConfig = {
 
-            apiKey: "AIzaSyAowoj5m78XUKJUi_xLBcccTlzIYqbRosA",
+            apiKey: "AIzaSyCnBoL8mlzITQC1GwZVeY6D-yPL9s5oTwM",
 
-            authDomain: "trainscheduler-619b5.firebaseapp.com",
+            authDomain: "train-schedule-a06cd.firebaseapp.com",
 
-            databaseURL: "https://trainscheduler-619b5.firebaseio.com",
+            databaseURL: "https://train-schedule-a06cd.firebaseio.com",
 
-            projectId: "trainscheduler-619b5",
+            projectId: "train-schedule-a06cd",
 
-            storageBucket: "trainscheduler-619b5.appspot.com",
+            storageBucket: "train-schedule-a06cd.appspot.com",
 
-            messagingSenderId: "614612854656",
-
-            appId: "1:614612854656:web:14cb857bac896e58"
+            messagingSenderId: "658106096164",
+            
+            appId: "1:658106096164:web:db02ed8acf917e25"
 
           };
 
